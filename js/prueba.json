@@ -1,0 +1,15 @@
+[
+    {
+        "nombre": "Lucrecia",
+        "apellidos": "Khoury",
+        "edad" : 22, 
+        "pais": "Argentina"
+    },
+    {
+        "nombre": "Rocio",
+        "apellidos": "Ortega",
+        "edad" : 22, 
+        "pais": "Argentina"
+    }
+
+]

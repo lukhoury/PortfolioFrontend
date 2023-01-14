@@ -4,17 +4,23 @@
 <head>
     <meta charset="utf-8">
     <title>Lucrecia Khoury Portfolio </title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylesIniciado.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <script src="js/scriptIniciado.js"></script>
    
 
     <!-- Iconos-->
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 
+   
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 
-    <script src="../js/scripts.js"></script>
+
+    
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
         integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA"></script>
@@ -57,7 +63,7 @@
                     <li id="logoNav"><a href="https://www.instagram.com/lukhoury/?hl=es-la"  target="_blank"><i class="fi fi-brands-instagram"></i></a></li>
                     <li id="logoNav"><a href="https://www.behance.net/lucreciakhoury1"  target="_blank" ><i class="fi fi-brands-behance"></i></a></li>
                     <li id="logoNav"><a href="https://www.linkedin.com/in/lucreciakhoury/"  target="_blank"><i class="fi fi-brands-linkedin"></i></a></li>
-                    <li id="logoNav"><a href="login.html"><i class="fi fi-sr-sign-in-alt"></i></a></li>
+                    <li id="logoNav"><a href="index.html"><i class="fi fi-rr-enter"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -69,23 +75,45 @@
 
     
     <div class="main-container col-lg-12">
+        
         <div class="profile col-lg-8">
-            <div class="profile-avatar col-lg-2">
-                <img src="../img/perfil.jpg" alt=""           class="profile-img">
-                <div class="profile-name">Lucrecia Khoury</div>
-            </div>
-           
-            <div 
             
-            class="profile-description col-lg-6">
-                <h2>Full Stack Developer Jr.</h2>
-                <p>Actualmente me encuentro realizando el curso de Argentina Programa. Además soy estudiante de la carrera de diseño
-                    multimedial, me encuentro en mi 3er año. Soy amante del diseño UX y UI</p>
+       
+            
+            <div class="profile-avatar col-lg-2">
+                <div class="contenedorLapiz">
+                    <img id="imagenPerfil" src="../img/perfil.jpg" alt="" class="profile-img">
+                    <i class="fi fi-sr-pencil lapizEditorImagen"></i>
+                </div>
+                
 
+                <div class="contenedorLapiz">
+                    <div class="profile-name">Lucrecia Khoury</div>
+                    <i class="fi fi-sr-pencil lapizEditor"></i>
+                </div>
+                
+            </div>
+            
+           
+            <div class="profile-description col-lg-6">
+
+                <div class="contenedorLapiz">
+                    <h2>Full Stack Developer Jr.</h2>
+                    <div ><i class="fi fi-sr-pencil lapizEditor" ></i></div>
+                </div>
+
+                <div class="contenedorLapiz">
+                    <p id="editar-texto">Actualmente me encuentro realizando el curso de Argentina Programa. Además soy estudiante de la carrera de diseñomultimedial, me encuentro en mi 3er año. Soy amante del diseño UX y UI</p>
+                    <input id="editar-parrafo" type="text" oninput="myFunction2(this.value)" style="display: none;">
+                    <div onclick="cambiar_parrafo()"><i class="fi fi-sr-pencil lapizEditor"></i></div>
+                </div>
+            
             </div>
             
             
         </div>
+
+         
         <img src="https: //mir-s3-cdn-cf.behance.net/project_modules/fs/c9c30a118787189.60fbb0e158730.png"
             alt="" class="profile-cover">
 
@@ -126,6 +154,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
+                
                 <div class="section-title">
                     <h2>Experiencia</h2>
                     <p>He trabajado como diseñadora digitial y de modo freelance a través de los años.</p>
@@ -137,15 +166,23 @@
                 <div class="resume-box">
                     <ul>
                         <li>
+                            <div class="contenedorLapiz">
+                                <i class="fi fi-sr-pencil lapizEditor"></i>
+                                <i class="fi fi-sr-trash eliminarEditor"></i>
+                            </div>
                             <div class="icon">
                                 <i class="fi fi-sr-briefcase"></i>
                             </div>
                             <span class="time">2020 - Presente | Buenos Aires, Argentina</span>
                             <h5>Digital Designer | Freelance</h5>
-                            <p>Proyectos basados en el UX y UI. Desarrollo front-end
-                            en website y diseño de contenido para redes sociales.</p>
+                            <p>Proyectos basados en el UX y UI. Desarrollo front-end en website y diseño de contenido para redes sociales.</p>
+                            
                         </li>
                         <li>
+                            <div class="contenedorLapiz">
+                                <i class="fi fi-sr-pencil lapizEditor"></i>
+                                <i class="fi fi-sr-trash eliminarEditor"></i>
+                            </div>
                             <div class="icon">
                                 <i class="fi fi-sr-briefcase"></i>
                             </div>
@@ -154,6 +191,10 @@
                             <p>Junto a una comunicadora, estamos a cargo de </p>
                         </li>
                         <li>
+                            <div class="contenedorLapiz">
+                                <i class="fi fi-sr-pencil lapizEditor"></i>
+                                <i class="fi fi-sr-trash eliminarEditor"></i>
+                            </div>
                             <div class="icon">
                                 <i class="fi fi-sr-briefcase"></i>
                             </div>
@@ -178,6 +219,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
+                    
                     <div class="section-title">
                         <h2>Educación</h2>
                         <p>Carrera y cursos.</p>
@@ -189,6 +231,10 @@
                     <div class="resume-box">
                         <ul>
                             <li>
+                                <div class="contenedorLapiz">
+                                    <i class="fi fi-sr-pencil lapizEditor"></i>
+                                    <i class="fi fi-sr-trash eliminarEditor"></i>
+                                </div>
                                 <div class="icon">
                                     <i class="fi fi-sr-graduation-cap"></i>
                                 </div>
@@ -197,6 +243,10 @@
                                 
                             </li>
                             <li>
+                                <div class="contenedorLapiz">
+                                    <i class="fi fi-sr-pencil lapizEditor"></i>
+                                    <i class="fi fi-sr-trash eliminarEditor"></i>
+                                </div>
                                 <div class="icon">
                                     <i class="fi fi-sr-diploma"></i>
                                 </div>
@@ -205,6 +255,10 @@
                                 
                             </li>
                             <li>
+                                <div class="contenedorLapiz">
+                                    <i class="fi fi-sr-pencil lapizEditor"></i>
+                                    <i class="fi fi-sr-trash eliminarEditor"></i>
+                                </div>
                                 <div class="icon">
                                     <i class="fi fi-sr-diploma"></i>
                                 </div>
@@ -241,6 +295,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
+                   
                     <div class="section-title">
                         <h2>Skills</h2>
                         <p>Soft & Hard skills </p>
@@ -328,6 +383,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
+                    
                     <div class="section-title">
                         <h2>Proyectos</h2>
                         <p>Conocé mis trabajos.</p>
@@ -335,63 +391,64 @@
                 </div>
             </div>
             <div class="row" style="margin: 50px">
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">                        
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                       <img src="img/perfil.jpg" alt="Proyecto 1">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img srce="img/perfil.jpg"alt="Proyecto 2">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img src="img/perfil.jpg" alt="Proyecto 3">
                     </div>
                 </div>
     
             </div>
 
             <div class="row" style="margin: 50px">
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img src="img/perfil.jpg" alt="Proyecto 4">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img src="img/perfil.jpg" alt="Proyecto 5">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true"  class="box resume-box">
+                        <img src="" alt="Proyecto 6">
                     </div>
                 </div>
             
             </div>
 
             <div class="row" style="margin: 50px">
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img src="" alt="Proyecto 7">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true" class="box resume-box">
+                        <img src="" alt="Proyecto 8">
                     </div>
                 </div>
-                <div class="col-lg-4 m-15px-tb">
-                    <div class="resume-box">
-                        <img src="img/perfil.jpg" alt="Foto de Perfil">
+                <div class="col-lg-4 m-15px-tb contenedorDraggable">
+                    <div draggable="true"  class="box resume-box">
+                        <img src="" alt="Proyecto 9">
                     </div>
                 </div>
             
             </div>
         </div>
     </section>
+
 
   
 
