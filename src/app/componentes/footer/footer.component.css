@@ -1,0 +1,11 @@
+footer {
+    background-color: #fc5356;
+    color: white;
+    font-weight:lighter;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
