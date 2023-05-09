@@ -1,0 +1,110 @@
+/*Acerca de¨*/
+
+.acercaDe {
+    width: 100%;
+}
+
+.banner {
+
+    z-index: 100;
+}
+
+.informacionAcerca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    top: 500px;
+}
+
+.fotoDePerfil {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacionPersonal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.main-container {
+   
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    height: 70vh;
+}
+
+.profile {
+    width: 90%;
+    background: rgb(173, 104, 202);
+    background: linear-gradient(128deg, rgba(173, 104, 202, 0.22) 0%, rgba(106, 103, 103, 1) 100%);
+    margin: 50px;
+    border-radius: 50px;
+    padding: 5%;
+    z-index: 1;
+    -webkit-box-shadow: 13px 10px 30px -6px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 13px 10px 30px -6px rgba(0, 0, 0, 0.75);
+        box-shadow: 13px 10px 30px -6px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 40vh;
+
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.profile-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+  
+}
+
+
+
+
+
+.profile-name {
+
+    
+    width: 100%;
+    background-color: #FEFEFE;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+
+
+.profile-description {
+    width: 60%;
+    margin: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FEFEFE;
+    border-radius: 0px 20px 20px 20px;
+    padding: 24px;
+}
+
